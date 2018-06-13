@@ -1,0 +1,36 @@
+.gototop{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-family: verdana;
+  text-align: center;
+  background:#F63E3E;
+  color:#fff;
+  position:fixed;
+  bottom: 20px;
+  right: 30px;
+  border-radius: 50%;
+  border: 2px solid #f68080;
+  text-decoration:none;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display:none;
+  text-shadow: 2px 2px black;
+  z-index: 9999999;
+}
+
+.gototop img{
+  padding-top: 6px;
+}
+
+
+@media only screen and (max-width:700px){
+  .gototop{
+    bottom: 50px;
+  }
+}
